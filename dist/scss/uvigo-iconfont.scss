@@ -1,0 +1,144 @@
+//
+// Font Path
+//
+
+$uvigo-iconfont-font-path: "./fonts/" !default;
+
+//
+// Font Icons
+//
+
+$uvigo-iconfont-gear-search: "\ea01";
+$uvigo-iconfont-graph-search: "\ea02";
+$uvigo-iconfont-halt: "\ea03";
+$uvigo-iconfont-heart: "\ea04";
+$uvigo-iconfont-justice: "\ea05";
+$uvigo-iconfont-map: "\ea06";
+$uvigo-iconfont-persons: "\ea07";
+$uvigo-iconfont-program: "\ea08";
+$uvigo-iconfont-research-book: "\ea09";
+$uvigo-iconfont-research-graph: "\ea0a";
+$uvigo-iconfont-research-group: "\ea0b";
+$uvigo-iconfont-research-people: "\ea0c";
+$uvigo-iconfont-scientific-divulgation: "\ea0d";
+$uvigo-iconfont-slideshow: "\ea0e";
+$uvigo-iconfont-speaker: "\ea0f";
+$uvigo-iconfont-transport: "\ea10";
+
+@font-face {
+    font-family: uvigo-iconfont;
+    src: url("#{$uvigo-iconfont-font-path}uvigo-iconfont.eot");
+    src: url("#{$uvigo-iconfont-font-path}uvigo-iconfont.eot?#iefix") format("embedded-opentype"), url("#{$uvigo-iconfont-font-path}uvigo-iconfont.woff2") format("woff2"), url("#{$uvigo-iconfont-font-path}uvigo-iconfont.woff") format("woff"), url("#{$uvigo-iconfont-font-path}uvigo-iconfont.ttf") format("truetype"), url("#{$uvigo-iconfont-font-path}uvigo-iconfont.svg#uvigo-iconfont") format("svg");
+    font-style: normal;
+    font-weight: normal;
+}
+
+%uvigo-iconfont {
+    display: inline-block;
+    transform: translate(0, 0);
+    text-rendering: auto;
+    text-transform: none;
+    font-family: uvigo-iconfont;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    speak: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.uvigo-iconfont {
+    @extend %uvigo-iconfont;
+}
+
+.uvigo-iconfont-lg {
+    vertical-align: -15%;
+    line-height: 0.75em;
+    font-size: 1.33333333em;
+}
+
+.uvigo-iconfont-2x {
+    font-size: 2em;
+}
+
+.uvigo-iconfont-3x {
+    font-size: 3em;
+}
+
+.uvigo-iconfont-4x {
+    font-size: 4em;
+}
+
+.uvigo-iconfont-5x {
+    font-size: 5em;
+}
+
+.uvigo-iconfont-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+.uvigo-iconfont-gear-search::before {
+    content: "\ea01";
+}
+
+.uvigo-iconfont-graph-search::before {
+    content: "\ea02";
+}
+
+.uvigo-iconfont-halt::before {
+    content: "\ea03";
+}
+
+.uvigo-iconfont-heart::before {
+    content: "\ea04";
+}
+
+.uvigo-iconfont-justice::before {
+    content: "\ea05";
+}
+
+.uvigo-iconfont-map::before {
+    content: "\ea06";
+}
+
+.uvigo-iconfont-persons::before {
+    content: "\ea07";
+}
+
+.uvigo-iconfont-program::before {
+    content: "\ea08";
+}
+
+.uvigo-iconfont-research-book::before {
+    content: "\ea09";
+}
+
+.uvigo-iconfont-research-graph::before {
+    content: "\ea0a";
+}
+
+.uvigo-iconfont-research-group::before {
+    content: "\ea0b";
+}
+
+.uvigo-iconfont-research-people::before {
+    content: "\ea0c";
+}
+
+.uvigo-iconfont-scientific-divulgation::before {
+    content: "\ea0d";
+}
+
+.uvigo-iconfont-slideshow::before {
+    content: "\ea0e";
+}
+
+.uvigo-iconfont-speaker::before {
+    content: "\ea0f";
+}
+
+.uvigo-iconfont-transport::before {
+    content: "\ea10";
+}

@@ -1,0 +1,47 @@
+{
+  "name": "contrib-web-portalmp-iconfont",
+  "version": "1.1.1",
+  "description": "Web font for UVigo icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm-run-all --sequential build-scss build-css build-html",
+    "build-scss": "webfont src/**/*.svg -t templates/uvigo-iconfont.scss.njk -d dist/fonts/ -s dist/scss/",
+    "build-css": "webfont src/**/*.svg -t templates/uvigo-iconfont.css.njk -d dist/fonts/ -s dist/",
+    "build-html": "webfont src/**/*.svg -t templates/uvigo-iconfont.html.njk -d dist/fonts/ -s dist/"
+  },
+  "author": {
+    "name": "IdeiT",
+    "email": "info@ideit.es"
+  },
+  "contributors": [
+    "uvigo-atic <atic@uciugo.es>",
+    "Fernando González <fernando.gonzalez@ideit.es>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uvigo/contrib-web-portalmp-iconfont.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uvigo/contrib-web-portalmp-iconfont/issues"
+  },
+  "keywords": [
+    "uvigo",
+    "webfont",
+    "icons"
+  ],
+  "files": [
+    "dist/"
+  ],  
+  "devDependencies": {
+    "npm-run-all": "^4.1.3",
+    "webfont": "^8.1.4"
+  },
+  "webfont": {
+    "fontName": "uvigo-iconfont",
+    "templateFontPath": "./fonts",
+    "templateFontName": "uvigo-iconfont",
+    "templateClassName": "uvigo-iconfont"
+  }
+}
