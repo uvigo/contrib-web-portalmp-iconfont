@@ -1,4 +1,4 @@
-## Condiciones de uso
+# Condiciones de uso
 
 El software alojado en proyectos "contrib" se ofrece tal cual, sin garantía de ningún tipo, expresa o implícita. La Universidad de Vigo no hace responsable de su uso ni de los daños u otras responsabilidades derivadas del mismo.
 
@@ -6,7 +6,7 @@ En particular, la Universidad de Vigo: No se compromete a atender peticiones de 
 
 La utilización del software implica la aceptación de las condiciones de uso.
 
-## UVigo Iconfont
+# UVigo Iconfont
 
 This icon font has been created to use in contrib-web-portalmp-frontend package or in other frontend package.
 
