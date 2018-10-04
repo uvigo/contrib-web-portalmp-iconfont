@@ -1,9 +1,3 @@
-# UVigo Iconfont
-
-This icon font has been created to use in contrib-web-portalmp-frontend package or in other frontend package.
-
-This package is based in [Awesome generator of webfont](https://github.com/itgalaxy/webfont).
-
 ## Condiciones de uso
 
 El software alojado en proyectos "contrib" se ofrece tal cual, sin garantía de ningún tipo, expresa o implícita. La Universidad de Vigo no hace responsable de su uso ni de los daños u otras responsabilidades derivadas del mismo.
@@ -11,6 +5,12 @@ El software alojado en proyectos "contrib" se ofrece tal cual, sin garantía de 
 En particular, la Universidad de Vigo: No se compromete a atender peticiones de actualización del software. No dará ningún tipo de soporte ni formación relativa al mismo.
 
 La utilización del software implica la aceptación de las condiciones de uso.
+
+## UVigo Iconfont
+
+This icon font has been created to use in contrib-web-portalmp-frontend package or in other frontend package.
+
+This package is based in [Awesome generator of webfont](https://github.com/itgalaxy/webfont).
 
 ## Features
 
