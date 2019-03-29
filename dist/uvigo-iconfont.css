@@ -48,66 +48,70 @@
     text-align: center;
 }
 
-.uvigo-iconfont-gear-search::before {
+.uvigo-iconfont-external-link::before {
     content: "\ea01";
 }
 
-.uvigo-iconfont-graph-search::before {
+.uvigo-iconfont-gear-search::before {
     content: "\ea02";
 }
 
-.uvigo-iconfont-halt::before {
+.uvigo-iconfont-graph-search::before {
     content: "\ea03";
 }
 
-.uvigo-iconfont-heart::before {
+.uvigo-iconfont-halt::before {
     content: "\ea04";
 }
 
-.uvigo-iconfont-justice::before {
+.uvigo-iconfont-heart::before {
     content: "\ea05";
 }
 
-.uvigo-iconfont-map::before {
+.uvigo-iconfont-justice::before {
     content: "\ea06";
 }
 
-.uvigo-iconfont-persons::before {
+.uvigo-iconfont-map::before {
     content: "\ea07";
 }
 
-.uvigo-iconfont-program::before {
+.uvigo-iconfont-persons::before {
     content: "\ea08";
 }
 
-.uvigo-iconfont-research-book::before {
+.uvigo-iconfont-program::before {
     content: "\ea09";
 }
 
-.uvigo-iconfont-research-graph::before {
+.uvigo-iconfont-research-book::before {
     content: "\ea0a";
 }
 
-.uvigo-iconfont-research-group::before {
+.uvigo-iconfont-research-graph::before {
     content: "\ea0b";
 }
 
-.uvigo-iconfont-research-people::before {
+.uvigo-iconfont-research-group::before {
     content: "\ea0c";
 }
 
-.uvigo-iconfont-scientific-divulgation::before {
+.uvigo-iconfont-research-people::before {
     content: "\ea0d";
 }
 
-.uvigo-iconfont-slideshow::before {
+.uvigo-iconfont-scientific-divulgation::before {
     content: "\ea0e";
 }
 
-.uvigo-iconfont-speaker::before {
+.uvigo-iconfont-slideshow::before {
     content: "\ea0f";
 }
 
-.uvigo-iconfont-transport::before {
+.uvigo-iconfont-speaker::before {
     content: "\ea10";
+}
+
+.uvigo-iconfont-transport::before {
+    content: "\ea11";
 }

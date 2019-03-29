@@ -8,22 +8,23 @@ $uvigo-iconfont-font-path: "./fonts/" !default;
 // Font Icons
 //
 
-$uvigo-iconfont-gear-search: "\ea01";
-$uvigo-iconfont-graph-search: "\ea02";
-$uvigo-iconfont-halt: "\ea03";
-$uvigo-iconfont-heart: "\ea04";
-$uvigo-iconfont-justice: "\ea05";
-$uvigo-iconfont-map: "\ea06";
-$uvigo-iconfont-persons: "\ea07";
-$uvigo-iconfont-program: "\ea08";
-$uvigo-iconfont-research-book: "\ea09";
-$uvigo-iconfont-research-graph: "\ea0a";
-$uvigo-iconfont-research-group: "\ea0b";
-$uvigo-iconfont-research-people: "\ea0c";
-$uvigo-iconfont-scientific-divulgation: "\ea0d";
-$uvigo-iconfont-slideshow: "\ea0e";
-$uvigo-iconfont-speaker: "\ea0f";
-$uvigo-iconfont-transport: "\ea10";
+$uvigo-iconfont-external-link: "\ea01";
+$uvigo-iconfont-gear-search: "\ea02";
+$uvigo-iconfont-graph-search: "\ea03";
+$uvigo-iconfont-halt: "\ea04";
+$uvigo-iconfont-heart: "\ea05";
+$uvigo-iconfont-justice: "\ea06";
+$uvigo-iconfont-map: "\ea07";
+$uvigo-iconfont-persons: "\ea08";
+$uvigo-iconfont-program: "\ea09";
+$uvigo-iconfont-research-book: "\ea0a";
+$uvigo-iconfont-research-graph: "\ea0b";
+$uvigo-iconfont-research-group: "\ea0c";
+$uvigo-iconfont-research-people: "\ea0d";
+$uvigo-iconfont-scientific-divulgation: "\ea0e";
+$uvigo-iconfont-slideshow: "\ea0f";
+$uvigo-iconfont-speaker: "\ea10";
+$uvigo-iconfont-transport: "\ea11";
 
 @font-face {
     font-family: uvigo-iconfont;
@@ -79,66 +80,70 @@ $uvigo-iconfont-transport: "\ea10";
     text-align: center;
 }
 
-.uvigo-iconfont-gear-search::before {
+.uvigo-iconfont-external-link::before {
     content: "\ea01";
 }
 
-.uvigo-iconfont-graph-search::before {
+.uvigo-iconfont-gear-search::before {
     content: "\ea02";
 }
 
-.uvigo-iconfont-halt::before {
+.uvigo-iconfont-graph-search::before {
     content: "\ea03";
 }
 
-.uvigo-iconfont-heart::before {
+.uvigo-iconfont-halt::before {
     content: "\ea04";
 }
 
-.uvigo-iconfont-justice::before {
+.uvigo-iconfont-heart::before {
     content: "\ea05";
 }
 
-.uvigo-iconfont-map::before {
+.uvigo-iconfont-justice::before {
     content: "\ea06";
 }
 
-.uvigo-iconfont-persons::before {
+.uvigo-iconfont-map::before {
     content: "\ea07";
 }
 
-.uvigo-iconfont-program::before {
+.uvigo-iconfont-persons::before {
     content: "\ea08";
 }
 
-.uvigo-iconfont-research-book::before {
+.uvigo-iconfont-program::before {
     content: "\ea09";
 }
 
-.uvigo-iconfont-research-graph::before {
+.uvigo-iconfont-research-book::before {
     content: "\ea0a";
 }
 
-.uvigo-iconfont-research-group::before {
+.uvigo-iconfont-research-graph::before {
     content: "\ea0b";
 }
 
-.uvigo-iconfont-research-people::before {
+.uvigo-iconfont-research-group::before {
     content: "\ea0c";
 }
 
-.uvigo-iconfont-scientific-divulgation::before {
+.uvigo-iconfont-research-people::before {
     content: "\ea0d";
 }
 
-.uvigo-iconfont-slideshow::before {
+.uvigo-iconfont-scientific-divulgation::before {
     content: "\ea0e";
 }
 
-.uvigo-iconfont-speaker::before {
+.uvigo-iconfont-slideshow::before {
     content: "\ea0f";
 }
 
-.uvigo-iconfont-transport::before {
+.uvigo-iconfont-speaker::before {
     content: "\ea10";
+}
+
+.uvigo-iconfont-transport::before {
+    content: "\ea11";
 }
