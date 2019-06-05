@@ -1,3 +1,7 @@
+### 1.1.2: June 4th, 2019
+
+* Package ´webfont´ updates to 9.0.0
+
 ### 1.1.1: September 6th, 2018
 
 * Added `research-people` icon

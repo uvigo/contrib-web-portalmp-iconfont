@@ -1,6 +1,6 @@
 {
   "name": "contrib-web-portalmp-iconfont",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Web font for UVigo icons",
   "main": "index.js",
   "scripts": {
